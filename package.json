@@ -1,0 +1,27 @@
+{
+  "name": "tyche",
+  "packageManager": "yarn@3.1.1",
+  "scripts": {
+    "build": "yarn tsc -p .",
+    "start": "yarn node dist/index.js",
+    "dev": "yarn run build && yarn run start"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.13.4",
+    "@types/koa-logger": "^3.1.2",
+    "@types/koa__router": "^8.0.11",
+    "@types/uuid": "^8.3.3",
+    "prettier": "2.5.0",
+    "tsc": "^2.0.3",
+    "typescript": "^4.5.2"
+  },
+  "dependencies": {
+    "@koa/router": "^10.1.1",
+    "class-validator": "^0.13.2",
+    "koa": "^2.13.4",
+    "koa-body": "^4.2.0",
+    "koa-logger": "^3.2.1",
+    "moment": "^2.29.1",
+    "uuid": "^8.3.2"
+  }
+}
