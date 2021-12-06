@@ -212,6 +212,9 @@ app
     .use(router.allowedMethods());
 app.listen(3000);
 
+console.log("Server started");
+console.log("Listening on localhost:3000");
+
 //-----------------//
 //--- Section 4 ---//
 //-----------------//
